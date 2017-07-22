@@ -11,13 +11,14 @@ const motorcycle_spaces = [
     "Shau Kei Wan Road",
     "Lee Chung Street",
     "Java Road near North Point Road",
-    "North Point Vehicluar Ferry Pier Playground"
+    "North Point Vehicluar Ferry Pier Playground",
+    "TSING FUNG STREET"
 ]
 function findParking(destination, fn) {
     
     distance.get(
     {
-      origin: 'Prosperity Millenia Plaza',
+      origin: destination,
       destinations: motorcycle_spaces,
       mode: "walking"
     },

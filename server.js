@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 app.post('/find_parking', (req, res) => {
     console.log(req.body.destination_field);
-    findParking.findParking("hi", function(results){
+    findParking.findParking(req.body.destination_field, function(results){
       console.log(results);
       res.render("result", {result: results[0].destination});
     })
