@@ -1,0 +1,23 @@
+{
+  "name": "hk_motorcycle_parking",
+  "version": "1.0.0",
+  "description": "Web application used to find motorcycle parking spaces near your given destination. Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryhamz/hk_motorcycle_parking.git"
+  },
+  "author": "Ryan Hamilton",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ryhamz/hk_motorcycle_parking/issues"
+  },
+  "homepage": "https://github.com/ryhamz/hk_motorcycle_parking#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mocha": "^3.4.2"
+  }
+}
