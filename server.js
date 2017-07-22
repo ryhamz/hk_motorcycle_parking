@@ -21,10 +21,12 @@ app.get('/', (req, res) => {
 
 app.post('/find_parking', (req, res) => {
     console.log(req.body.destination_field);
-    var result = findParking.findParking("hi", function(results){
-  console.log(results);
-  return results;
-})});
+    findParking.findParking("hi", function(results){
+      console.log(results);
+      res.render("result", {result: results[0].destination});
+    })
+    
+});
 
 server.listen(PORT);
 
