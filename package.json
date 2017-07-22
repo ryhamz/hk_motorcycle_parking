@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ryhamz/hk_motorcycle_parking#readme",
   "dependencies": {
+    "@google/maps": "^0.4.2",
     "express": "^4.15.3",
     "mocha": "^3.4.2"
   }
