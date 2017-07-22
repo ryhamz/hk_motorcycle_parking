@@ -2,7 +2,7 @@
   "name": "hk_motorcycle_parking",
   "version": "1.0.0",
   "description": "Web application used to find motorcycle parking spaces near your given destination. Edit",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "mocha"
   },
@@ -18,7 +18,10 @@
   "homepage": "https://github.com/ryhamz/hk_motorcycle_parking#readme",
   "dependencies": {
     "@google/maps": "^0.4.2",
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "mocha": "^3.4.2"
+    "google-distance": "^1.0.1",
+    "mocha": "^3.4.2",
+    "pug": "^2.0.0-rc.2"
   }
 }
